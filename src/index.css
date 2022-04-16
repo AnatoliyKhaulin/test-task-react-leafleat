@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+.table-wrapper {
+  overflow: auto;
+  max-height: 100%;
+  scrollbar-width: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.table-wrapper::-webkit-scrollbar-button {
+  background: #ccc;
+}
+
+.table-wrapper::-webkit-scrollbar-track-piece {
+  background: #888;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+  background: #eee;
+}
+
+/* .table-wrapper table {
+  min-width: 500px;
+} */
