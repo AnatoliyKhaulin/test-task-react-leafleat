@@ -1,5 +1,5 @@
 import { all } from "redux-saga/effects";
-import { requestsWatcher } from "./requestsSage";
+import { requestsWatcher } from "./requestsSaga";
 import { citiesWatcher } from "./citiesSaga";
 
 export function* rootWatcher() {
